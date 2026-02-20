@@ -50,9 +50,22 @@ Misión: Como propuse la estructura, sere la encargada de inicializar el reposit
 
 #Bitacora dia 1 20/02/2026
 
+# Bitácora día 1 - 20/02/2026
+
 ¿Qué se trabajó hoy?
+Se definió el alcance del proyecto eligiendo la "Opción A: Sistema de Logística de un Almacén". Se inicializó el repositorio en GitHub con la estructura base de archivos en VSCode y se asignaron los roles de desarrollo para cada integrante. Además, Andrés finalizó el desarrollo del primer módulo funcional: la estructura dinámica de la Cola de Camiones, programando las clases NodoCamion y ColaMuelle utilizando punteros y respetando el principio FIFO.
+
 ¿Qué inteligencia artificial se utilizó? (Si aplica)
+Se utilizó Gemini.
+
 ¿Qué prompt se hizo?
+Se realizaron consultas de estructuración inicial, destacando: "Se trata de un proyecto de estructuras de datos... haz un resumen de lo que debe ser el proyecto... explícanos el paso a paso", "¿Qué proyecto debería elegir para mi grupo?" y "Necesito que me des las bases para ir agregando todos los archivos al VSCode".
+
 ¿Qué respondió la IA?
+La IA desglosó los requerimientos del profesor, recomendó la Opción A por su solidez técnica, propuso la división del código en tres módulos independientes (Cola, Pila y Main), asignó las tareas específicas por integrante, y generó un diagrama de flujo para visualizar la transferencia de datos entre la llegada al muelle y el almacenamiento.
+
 ¿Cómo se adaptó esa respuesta al proyecto?
+Se creó el archivo README.md plasmando los roles y responsabilidades sugeridos. Se crearon todos los archivos .java base en el entorno de desarrollo y se implementó la lógica de Nodos para los camiones y el muelle (frente y fin) sugerida por la IA.
+
 ¿Qué problemas se encontraron? (Si los hubo)
+Inicialmente hubo dudas sobre si se debían emplear interfaces gráficas de usuario o colecciones de Java, pero se aclaró a tiempo que el sistema debía ejecutarse 100% por consola y las estructuras debían crearse totalmente desde cero usando nodos.
